@@ -1,0 +1,20 @@
+@import './../../styles/variables.scss';
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+
+  h2 {
+    @include section-header;
+  }
+}
+
+.form-container {
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  justify-content: center;
+}

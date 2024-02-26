@@ -1,0 +1,11 @@
+@mixin button-style{
+    border: none;
+    padding: 4px;
+
+}
+
+@mixin section-header{
+    font-size: 30px;
+    color: darkmagenta;
+    font-weight: 600;
+}
